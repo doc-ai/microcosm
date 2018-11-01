@@ -34,6 +34,9 @@ spec:
             - containerPort: 8545
               protocol: TCP
               name: jsonrpc
+            - containerPort: 8546
+              protocol: TCP
+              name: ws
             - containerPort: 30303
               protocol: TCP
               name: peers
